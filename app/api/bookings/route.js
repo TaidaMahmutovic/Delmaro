@@ -19,5 +19,6 @@ export async function GET() {
   } catch (error) {
     console.error('❌ Error fetching bookings:', error);
     return NextResponse.json({ error: 'Failed to load bookings' }, { status: 500 });
+    //select
   }
 }
